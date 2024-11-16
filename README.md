@@ -78,9 +78,6 @@ Integrating Modal's serverless platform with Ollama offers a powerful solution f
 4. **Enhanced Performance with GPU Support**  
    Modal supports GPU acceleration, which is crucial for running LLMs efficiently. This integration ensures that models managed by Ollama can perform optimally, handling complex computations effectively. 
 
-5. **Improved Data Privacy and Control**  
-   Running LLMs locally with Ollama ensures data privacy, and deploying them on Modal's platform provides additional control over the execution environment, aligning with organizational security requirements. 
-
 By combining Modal's serverless capabilities with Ollama's model management features, organizations can deploy large language models more efficiently, cost-effectively, and securely. 
 
 ---
