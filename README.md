@@ -1,5 +1,7 @@
 # modal-ollama
 
+![](https://i0.wp.com/collabnix.com/wp-content/uploads/2023/12/Screenshot-2023-12-14-at-4.49.33%E2%80%AFPM.png?fit=1114%2C518&ssl=1)
+
 ---
 
 Integrating Ollama's serverless platform with Modal can streamline the deployment and scaling of AI and machine learning applications. Here's a step-by-step guide to setting up and running your application:
