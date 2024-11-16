@@ -64,6 +64,8 @@ Modal's unique combination of rapid cloud execution, flexible environment manage
 
 ---
 
+## Modal + Ollama
+
 Integrating Modal's serverless platform with Ollama offers a powerful solution for deploying and managing large language models (LLMs) efficiently. Key benefits of this combination include:
 
 1. **Scalable Deployment of LLMs**  
