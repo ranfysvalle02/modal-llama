@@ -212,7 +212,7 @@ modal serve demo.py
 **USE THE HTTP ENDPOINT**
 
 ```
-curl -X POST -H "Content-Type: application/json" -d '{"q":"hola"}' https://--ollama-demo-run-ollama-demo-dev.modal.run
+curl -X POST -H "Content-Type: application/json" -d '{"q":"hola"}' <insert-url-from-modal-serve>
 ```
 
 By leveraging Modal's serverless capabilities alongside Ollama's AI models, you can efficiently deploy and scale your applications without the overhead of managing underlying infrastructure. 
