@@ -8,7 +8,7 @@
 ### Key Differentiator Features of Ollama
 
 1. **Local Execution of Large Language Models (LLMs)**  
-   Ollama enables users to run LLMs directly on their local machines, ensuring data privacy and reducing reliance on cloud services. This approach offers faster processing speeds and greater control over data. :contentReference[oaicite:0]{index=0}
+   Ollama enables users to run LLMs directly on their local machines, ensuring data privacy and reducing reliance on cloud services. This approach offers faster processing speeds and greater control over data. 
 
 2. **Support for a Diverse Range of Models**  
    Ollama supports various open-source models, including Llama 2, Mistral, and CodeLlama, allowing users to select models that best fit their specific applications. 
