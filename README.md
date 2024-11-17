@@ -215,4 +215,11 @@ modal serve demo.py
 curl -X POST -H "Content-Type: application/json" -d '{"q":"hola"}' <insert-url-from-modal-serve>
 ```
 
+**OUTPUT**
+
+```
+¡hola! ¿En qué puedo ayudarte hoy?
+   POST / -> 200 OK  (duration: 9.44 s, execution: 6.98 s)
+```
+
 By leveraging Modal's serverless capabilities alongside Ollama's AI models, you can efficiently deploy and scale your applications without the overhead of managing underlying infrastructure. 
