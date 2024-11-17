@@ -7,4 +7,3 @@ RUN curl -fsSL https://ollama.com/install.sh | sh
 RUN mkdir -p /root/.ollama/models
 
 ENV OLLAMA_HOST=0.0.0.0
-
