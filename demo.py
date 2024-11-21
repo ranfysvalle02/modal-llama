@@ -4,7 +4,11 @@ import time
 from fastapi import Request
 from fastapi.responses import JSONResponse
 # Define the Docker image
-docker_image = modal.Image.from_dockerfile("Dockerfile").pip_install("fastapi", "requests", "ollama")
+#docker_image = modal.Image.from_dockerfile("Dockerfile").pip_install("fastapi", "requests", "ollama")
+docker_image = modal.Image.debian_slim().apt_install("curl").run_commands(
+    "curl -fsSL https://ollama.com/install.sh | sh", 
+    "ollama serve &"
+).pip_install("fastapi", "requests", "ollama")
 
 # Create a Modal app
 app = modal.App("ollama-demo")
